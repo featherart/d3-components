@@ -21,8 +21,10 @@ class App extends Component {
 
         <div className="pie-chart">
           <h4> Pie Chart </h4>
-          <h8> <p>Works well for comparing relative quantities that can be discrete or continuous.</p>
-          <p>Interactivity can be added to compare different scenarios to see how changing one variable will change proportional relationships.</p></h8>
+          <h8>
+            <p>Works well for comparing relative quantities that can be discrete or continuous.</p>
+            <p>Interactivity can be added to compare different scenarios to see how changing one variable will change proportional relationships.</p>
+          </h8>
           <div className="pie-wrapper">
             <PieChart />
           </div>
